@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './components/App';
 import reportWebVitals from './reportWebVitals';
+import slides from './data.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App slides={slides}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
